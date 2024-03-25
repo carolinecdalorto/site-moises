@@ -35,21 +35,33 @@
             margin: 20px;
         }
 
-      .container {
+        .container {
             display: flex;
-            flex-wrap: wrap; /* Permite que os itens quebrem para uma nova linha conforme necessário */
-            justify-content: center; /* Centraliza os itens horizontalmente */
             align-items: center; /* Centraliza os itens verticalmente */
-            margin: 0 auto; /* Define margens automáticas para centralizar horizontalmente */
-            width: 65%; /* Define uma largura para o container */
-            height: 100vh;
+            padding: 20px; /* Adiciona algum espaçamento interno */
         }
 
+        .container img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
+            margin-right: 20px; /* Adiciona espaçamento à direita da imagem */
+        }
+
+        .container p {
+            flex: 1; /* Faz o parágrafo ocupar o restante do espaço disponível */
+        }
+
+        /* Media query para ajustar o layout em telas menores */
         @media (max-width: 768px) {
-        .container > * {
-        flex: 1 1 100%; /* Muda para ocupar 100% da largura em telas menores */
+            .container {
+            flex-direction: column; /* Muda para layout de coluna em telas menores */
+            }
+            
+            .container img {
+             margin-right: 0; /* Remove o espaçamento à direita da imagem em layout de coluna */
+             margin-bottom: 20px; /* Adiciona espaçamento abaixo da imagem em layout de coluna */
             }
         }
+
         
         
 
