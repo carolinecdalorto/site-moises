@@ -44,9 +44,9 @@
     
     menu {
         display: none;
-        width: 100vw;
+        width: 100%;
         position: relative;
-        top: 60px;
+        top: 50px;
         left: -60px;
     }
     
