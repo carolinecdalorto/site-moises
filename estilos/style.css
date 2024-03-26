@@ -61,11 +61,11 @@
         background-color: #778fc7;
         color: white;
         text-align: center;
-        border-top: 10px solid #778fc788;
+        
     }
     
     menu > ul > li > a:hover {
-        background-color: #8ca8e9;
+        background-color: #778fc788;
     }
     
     main {
