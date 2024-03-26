@@ -44,7 +44,8 @@
         display: none;
         width: 100%;
         position: fixed;
-        top: 200px;
+        top: 195px;
+        left: 0;
     }
     
     menu > ul {
