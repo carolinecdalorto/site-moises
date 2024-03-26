@@ -23,7 +23,7 @@
     header > h1, h2 {
         padding: 10px;
         text-align: center;
-        margin: bottom;
+        margin-bottom: auto;
     }
     
     span#burguer {
