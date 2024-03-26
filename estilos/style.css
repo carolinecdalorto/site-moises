@@ -42,7 +42,8 @@
     
     menu {
         display: none;
-        margin-bottom: auto;
+        width: 100%;
+        position: fixed;
     }
     
     menu > ul {
