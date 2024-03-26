@@ -42,6 +42,7 @@
     
     menu {
         display: none;
+        margin-bottom: auto;
     }
     
     menu > ul {
