@@ -57,6 +57,7 @@
     menu > ul > li > a {
         display: block;
         padding: 10px;
+        height: 100%;
         text-decoration: none;
         background-color: #778fc7;
         color: white;
