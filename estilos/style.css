@@ -16,7 +16,7 @@
     }
     
     header {
-        background-image: url(../bookcapa.jpg);
+        background-image: url(../bookcapa.jpg) no-repeat;
         padding: 60px;
     }
     
