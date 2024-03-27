@@ -19,6 +19,10 @@
         background-color:  #e3e5ed;
     }
     
+    .itens {
+        padding: 60px;
+    }
+
     header {
         background-image: url(../natacha.jpg);
         padding: 60px;
