@@ -61,6 +61,7 @@
         padding: 10px;
         cursor: pointer; /*tornar-se maozinha quando passa o mouse */
         width: 100%;
+        border-radius: 5px;
     }
     
     span#burguer:hover {
