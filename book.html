@@ -42,6 +42,7 @@
             flex-direction: column;
             justify-content: center; /* Alinha os itens verticalmente */
             text-align: center; /* Alinha o texto horizontalmente */
+            overflow: hidden;
         }
         
         header > h1 {
@@ -167,26 +168,21 @@
         }
 
         header img {
-            width: 100%; /* Garante que a imagem ocupe toda a largura do cabeçalho */
-            height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
-        }
-
-        #image-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
             width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0); /* Sobreposição inicialmente transparente */
-            transition: background-color 0.5s ease; /* Transição de cor de fundo suave */
+            height: auto;
+            position: absolute;
+            transition: opacity 0.5s ease; /* Transição suave de opacidade */
         }
 
-       /* Estilos para telas grandes (maiores ou iguais a 768px) */
-    @media screen and (min-width: 768px) {
-        span#burguer {
-            display: none; /* Oculta o ícone do menu em telas grandes */
+        #header-image.fade-out {
+            opacity: 0; /* Faz a imagem desaparecer */
         }
-    }
+            /* Estilos para telas grandes (maiores ou iguais a 768px) */
+        @media screen and (min-width: 768px) {
+            span#burguer {
+            display: none; /* Oculta o ícone do menu em telas grandes */
+            }
+        }
 
     </style>
 </head>
