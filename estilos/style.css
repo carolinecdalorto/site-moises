@@ -16,15 +16,15 @@
     }
 
     body, html {
-        background-color:  #e3e5ed;
+        background-color: #e3e5ed;
     }
     
-
     header {
         background-image: url(../natacha.jpg);
         padding: 60px;
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center -550px;
     }
     
     header > h1, h2 {
