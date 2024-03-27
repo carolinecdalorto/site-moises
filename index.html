@@ -11,7 +11,6 @@
 <body id="pagina1" class="pagina" onresize="mudouTamanho()">
     <header>
         <h1>Moisés Lino e Silva, Ph.D</h1>
-        <img id="header-image" src="natacha.jpg" alt="Natacha">
         <h2>Political Anthropology</h2>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
         menu
@@ -77,16 +76,6 @@
         window.location.href = 'pagina2.html';
         }, 1000); // Tempo de duração da animação (em milissegundos)
         });
-
-       // Função para mudar a imagem do header
-    function changeHeaderImage(newImage) {
-      const headerImage = document.getElementById('header-image');
-      headerImage.style.opacity = 0; // Define a opacidade da imagem como 0
-      setTimeout(() => {
-        headerImage.src = newImage; // Altera a imagem do header
-        headerImage.style.opacity = 1; // Define a opacidade de volta para 1
-      }, 1000); // Tempo de transição em milissegundos (1 segundo)
-    }
 
     </script>
 </body>
