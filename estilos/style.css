@@ -101,8 +101,10 @@
     }
 
     .icon-and-text {
-        display: inline-flex; /* Para alinhar os elementos um ao lado do outro */
-        align-items: middle; /* Para alinhar verticalmente os itens */
+        display: flex;
+        justify-content: flex-end; /* Alinha os itens à direita */
+        align-items: center; /* Alinha verticalmente os itens */
+        width: 100%; /* Para garantir que a div ocupe toda a largura disponível */
     }
     
     .material-symbols-outlined {
@@ -112,6 +114,7 @@
     .bold {
         font-weight: bold;
     }
+    
     
 
     .line {
