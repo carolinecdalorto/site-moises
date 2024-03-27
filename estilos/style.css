@@ -70,21 +70,14 @@
     menu {
         display: flex;
         justify-content: center;
-        width: 100%; /* Ocupa toda a largura da página */
-        margin-top: 20px; /* Espaçamento superior do menu */
+        margin-top: auto; /* Faz com que o menu fique no final do cabeçalho */
+        width: 100%;
     }
     
     menu > ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        display: flex; /* Adicionado para garantir que os itens se alinhem corretamente */
-        justify-content: center; /* Centraliza os itens horizontalmente */
-        width: 100%; /* Ocupa toda a largura do menu */
-    }
-    
-    menu > ul > li {
-        margin: 0 5px; /* Adicionando espaçamento horizontal entre os itens do menu */
     }
     
     menu > ul > li > a {
@@ -97,9 +90,11 @@
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
         border-radius: 5px;
         transition: 0.5s;
-        width: auto; /* Define a largura automática para cada item do menu */
     }
     
+    menu > ul > li > a:hover {
+        background-color: #778fc788;
+    }
     
     main {
         flex: 1; /* Ocupa todo o espaço disponível */
