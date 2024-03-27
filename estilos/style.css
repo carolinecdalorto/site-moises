@@ -37,7 +37,7 @@
         text-align: center; /* Alinha o texto horizontalmente */
     }
     
-    header > index {
+    header > home {
         background-image: url(../natacha.jpg);
     }
     header.book {
