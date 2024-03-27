@@ -8,7 +8,7 @@
     }
         
     .itens {
-        margin-top: -60pxpx;
+        position: relative;
     }
 
     h1 {
