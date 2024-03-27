@@ -27,7 +27,7 @@
         background-size: cover;
         background-position: center;
         padding: 60px;
-        height: 400px; /* Altura do cabeçalho */
+        height: 250px; /* Altura do cabeçalho */
         display: flex;
         flex-direction: column;
         justify-content: center; /* Alinha os itens verticalmente */
@@ -61,7 +61,7 @@
         display: none;
         text-align: center;
         position: relative;
-        top: 60px;
+        top: 40px;
     }
     
     menu > ul {
