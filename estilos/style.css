@@ -78,7 +78,7 @@
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
         border-radius: 5px;
         transition: 0.5s;
-        margin-top: 50px
+        margin-top: 50px;
     }
     
     menu > ul > li > a:hover {
@@ -91,7 +91,7 @@
         padding: 15px;
         border-radius: 10px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
-        margin: 15px auto; /* Centraliza o main */
+        margin: 10px auto; /* Centraliza o main */
     }
     
     article > h2 {
