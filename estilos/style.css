@@ -25,7 +25,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding: 60px;
         height: auto; /* Alterado para altura automática */
         min-height: 200px; /* Altura mínima do cabeçalho */
         display: flex;
@@ -52,7 +51,7 @@
     }
     
     span#burguer:hover {
-        background-color: white;
+        background-color: #778fc7;
         color: black;
     }
     
