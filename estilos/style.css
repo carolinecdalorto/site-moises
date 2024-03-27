@@ -98,7 +98,6 @@
     }
     
     main {
-        padding: 10px;
         flex: 1; /* Ocupa todo o espaço disponível */
         background-color: white;
         padding: 15px;
@@ -146,4 +145,7 @@
         margin-top: 10px;
     }
 
+    #paragrafo {
+        margin-top: 10px;
+    }
     
