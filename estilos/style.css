@@ -34,7 +34,6 @@
         text-align: center; /* Alinha o texto horizontalmente */
     }
     
-    
     header {
         position: relative;
         background-image: url(../natacha.jpg);
@@ -78,6 +77,7 @@
         bottom: 0; /* Posiciona o menu no rodapé do cabeçalho */
         left: 0; /* Alinha o menu à esquerda */
         width: 100%;
+        z-index: 1; /* Garante que o menu fique acima do conteúdo */
     }
     
     menu > ul {
