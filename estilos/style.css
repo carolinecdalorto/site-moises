@@ -26,7 +26,8 @@
         background-size: cover;
         background-position: center;
         padding: 60px;
-        height: 300px; /* Altura mínima do cabeçalho */
+        height: auto; /* Alterado para altura automática */
+        min-height: 300px; /* Altura mínima do cabeçalho */
         display: flex;
         flex-direction: column;
         justify-content: center; /* Alinha os itens verticalmente */
@@ -84,13 +85,12 @@
     }
     
     main {
-        width: 90vw;
+        flex: 1; /* Ocupa todo o espaço disponível */
         background-color: white;
-        margin: auto;
-        margin-top: 15px;
         padding: 15px;
         border-radius: 10px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
+        margin-top: 15px;
     }
     
     article > h2 {
