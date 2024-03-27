@@ -240,37 +240,27 @@
                 }
             }
 
-            var headerImages = ['imagem1.jpg', 'imagem2.jpg', 'imagem3.jpg'];
-            var currentImageIndex = 0;
-
-            function changeHeaderImage() {
-                var headerImage = document.getElementById('header-image');
-                headerImage.classList.add('fade-out');
-                setTimeout(function() {
-                    currentImageIndex++;
-                    if (currentImageIndex >= headerImages.length) {
-                        currentImageIndex = 0;
-                    }
-                    headerImage.src = headerImages[currentImageIndex];
-                    headerImage.classList.remove('fade-out');
-                }, 500);
+        // Função para alternar a visibilidade do menu
+        function toggleMenu() {
+            var menu = document.getElementById('itens');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
             }
+        }
 
-            function toggleMenu() {
-                var menu = document.getElementById('itens');
-                if (menu.style.display === 'block') {
-                    menu.style.display = 'none';
-                } else {
-                    menu.style.display = 'block';
-                }
+        // Adiciona um ouvinte de evento de clique ao ícone do menu
+        document.getElementById('burguer').addEventListener('click', toggleMenu);
+
+        // Adiciona um ouvinte de evento de clique no documento para fechar o menu ao clicar fora dele
+        document.addEventListener('click', function(event) {
+            var menu = document.getElementById('itens');
+            var burguer = document.getElementById('burguer');
+            if (event.target !== menu && event.target !== burguer) {
+                menu.style.display = 'none';
             }
-
-            document.addEventListener('DOMContentLoaded', function() {
-                setInterval(changeHeaderImage, 5000);
-            });
-
-            document.getElementById('burguer').addEventListener('click', toggleMenu);
-
+        });
     </script>
 </body>
 </html>
