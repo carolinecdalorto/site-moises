@@ -26,8 +26,8 @@
         background-size: cover;
         background-position: center;
         padding: 60px;
-        height: auto; /* Altura automática */
-        min-height: 300px; /* Altura mínima do cabeçalho */
+        height: auto; /* Alterado para altura automática */
+        min-height: 200px; /* Altura mínima do cabeçalho */
         display: flex;
         flex-direction: column;
         justify-content: center; /* Alinha os itens verticalmente */
@@ -48,7 +48,7 @@
         display: block;
         text-align: center;
         padding: 10px;
-        cursor: pointer; /* Tornar-se mãozinha quando passa o mouse */
+        cursor: pointer; /*tornar-se maozinha quando passa o mouse */
     }
     
     span#burguer:hover {
@@ -59,7 +59,7 @@
     menu {
         display: flex;
         justify-content: center;
-        margin-top: 20px; /* Espaçamento superior do menu */
+        margin-top: 10px; /* Faz com que o menu fique no final do cabeçalho */
     }
     
     menu > ul {
@@ -71,9 +71,21 @@
     menu > ul > li > a {
         display: block;
         padding: 10px;
-     }
-     
-    main {
+        text-decoration: none;
+        background-color: #778fc7;
+        color: white;
+        text-align: center;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
+        border-radius: 5px;
+        transition: 0.5s;
+      
+    }
+    
+    menu > ul > li > a:hover {
+        background-color: #778fc788;
+    }
+    
+   main {
         flex: 1; /* Ocupa todo o espaço disponível */
         background-color: white;
         padding: 15px;
