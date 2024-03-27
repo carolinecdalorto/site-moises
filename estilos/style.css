@@ -20,6 +20,7 @@
     }
     
     header {
+        position: relative; /* Definindo posição relativa */
         background-image: url(../natacha.jpg);
         padding: 60px;
         background-repeat: no-repeat;
@@ -50,29 +51,33 @@
     }
     
     menu {
-        display: none;
-        text-align: center;
-        position: relative;
-        top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Alinhando itens ao centro */
+        position: absolute;
+        top: 100%; /* Colocando o menu abaixo do cabeçalho */
+        left: 0; /* Posicionando o menu à esquerda */
+        width: 100%;
+        background-color: #fff; /* Mudando a cor de fundo */
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
+        z-index: 1; /* Colocando o menu sobre o conteúdo */
     }
     
     menu > ul {
         list-style-type: none;
-        margin: 0px auto;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
     }
     
     menu > ul > li > a {
         display: block;
         padding: 10px;
         text-decoration: none;
-        background-color: #778fc7;
         color: white;
         text-align: center;
-        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
+        background-color: #778fc7;
         border-radius: 5px;
-        transition: 0.5s;
-        
+        transition: background-color 0.5s;
     }
     
     menu > ul > li > a:hover {
@@ -99,26 +104,24 @@
         text-indent: 20px;
         padding: 20px;
     }
-
+    
     .icon-and-text {
         display: flex;
-        justify-content: flex-end; /* Alinha os itens à direita */
-        align-items: center; /* Alinha verticalmente os itens */
+        align-items: center; /* Alinhando itens ao centro */
         width: 100%; /* Para garantir que a div ocupe toda a largura disponível */
     }
     
     .material-symbols-outlined {
-        margin-right: 10px; /* Adiciona um espaço à direita do ícone */
+        margin-right: 10px;
     }
     
     .bold {
         font-weight: bold;
     }
     
-
     .line {
         width: 100%;
-        height: 10px; /* Altura da linha */
-        background-color: rgb(255, 189, 48); 
+        height: 10px;
+        background-color: rgb(255, 189, 48);
     }
-
+    
