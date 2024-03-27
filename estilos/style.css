@@ -37,10 +37,11 @@
         text-align: center; /* Alinha o texto horizontalmente */
     }
     
-    header > home {
+    .pagina1 header {
         background-image: url(../natacha.jpg);
     }
-    header.book {
+    
+    .pagina2 header {
         background-image: url(../bookcapa.jpg);
     }
 
