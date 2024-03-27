@@ -103,6 +103,7 @@
     .bold {
         font-weight: bold;
         text-align: left;
+        top: 50px;
     }
 
     .line {
