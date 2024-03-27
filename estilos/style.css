@@ -100,16 +100,19 @@
         padding: 20px;
     }
 
+    .icon-and-text {
+        display: inline-flex; /* Para alinhar os elementos um ao lado do outro */
+        align-items: center; /* Para alinhar verticalmente os itens */
+    }
+    
     .material-symbols-outlined {
-        vertical-align: middle;
+        margin-right: 10px; /* Adiciona um espaço à direita do ícone */
     }
     
     .bold {
         font-weight: bold;
-        display: inline-block; /* Para garantir que a altura do parágrafo seja considerada */
-        margin-left: 10px;
-        vertical-align: middle; /* Alinha verticalmente com o ícone */
     }
+    
 
     .line {
         width: 100%;
