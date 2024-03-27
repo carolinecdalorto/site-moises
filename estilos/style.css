@@ -154,6 +154,7 @@
     }
     
     header img {
+        opacity: 1;
         width: 100%; /* Garante que a imagem ocupe toda a largura do cabeçalho */
         height: auto; /* Permite que a altura da imagem seja ajustada automaticamente */
         transition: opacity 0.5s ease; /* Define a transição de opacidade com duração de 0.5 segundos */
