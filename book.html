@@ -12,13 +12,14 @@
     <header>
         <h1>Minoritarin Liberalism</h1>
         <h2 id="bemvindo">A Travesti Life in Favela</h2>
+        <img id="header-image" src="bookcapa.jpg" alt="livrocapa">
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
         menu
         </span>
         <menu id="itens">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="book.html">Minoritarian Liberalism</a></li>
+                    <li><a href="index.html" onclick="changeHeaderImage('natacha.jpg')">Home</a></li>
+                    <li><a href="book.html" onclick="changeHeaderImage('bookcapa.jpg')" >Minoritarian Liberalism</a></li>
                     <li><a href="">Opção 3</a></li>
                     <li><a href="">Opção 4</a></li>
                     <li><a href="">Opção 5</a></li>
@@ -73,6 +74,16 @@
             window.location.href = 'pagina2.html';
             }, 1000); // Tempo de duração da animação (em milissegundos)
         });
+
+        // Função para mudar a imagem do header com transição suave
+    function changeHeaderImage(newImage) {
+      const headerImage = document.getElementById('header-image');
+      headerImage.style.opacity = 0; // Define a opacidade da imagem como 0
+      setTimeout(() => {
+        headerImage.src = newImage; // Altera a imagem do header
+        headerImage.style.opacity = 1; // Define a opacidade de volta para 1
+      }, 1000); // Tempo de transição em milissegundos (1 segundo)
+    }
 
     </script>
 </body>
