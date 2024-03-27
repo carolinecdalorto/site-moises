@@ -35,7 +35,6 @@
         flex-direction: column;
         justify-content: center; /* Alinha os itens verticalmente */
         text-align: center; /* Alinha o texto horizontalmente */
-        overflow: hidden;
     }
     
     header > h1 {
@@ -154,16 +153,6 @@
         margin-bottom: 5px;
     }
     
-    header img {
-        width: 100%;
-        height: auto;
-        position: absolute;
-        transition: opacity 0.5s ease; /* Transição suave de opacidade */
-    }
-    
-    #header-image.fade-out {
-        opacity: 0; /* Faz a imagem desaparecer */
-    }
 
 
     
