@@ -12,19 +12,18 @@
     <header>
         <h1>Moisés Lino e Silva, Ph.D</h1>
         <h2>Political Anthropology</h2>
+        <img id="header-image" src="natacha.jpg" alt="">
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
         menu
         </span>
         <menu id="itens">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="book.html">Minoritarian Liberalism</a></li>
-                    <li><a href="">Opção 3</a></li>
-                    <li><a href="">Opção 4</a></li>
-                    <li><a href="">Opção 5</a></li>
-                </ul>
-            </nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="book.html">Minoritarian Liberalism</a></li>
+                <li><a href="">Opção 3</a></li>
+                <li><a href="">Opção 4</a></li>
+                <li><a href="">Opção 5</a></li>
+            </ul>
         </menu>
     </header>
     <div class="line"></div> 
@@ -65,6 +64,30 @@
                 itens.style.display = 'block'
             }
         }
+
+        // Array com URLs das imagens do cabeçalho
+        var headerImages = ['natacha.jpg', 'bookcapa.jpg'];
+            var currentImageIndex = 0; // Índice da imagem atual
+
+            // Função para trocar a imagem do cabeçalho
+            function changeHeaderImage() {
+                currentImageIndex++; // Avança para a próxima imagem
+                if (currentImageIndex >= headerImages.length) {
+                    currentImageIndex = 0; // Volta para a primeira imagem se atingir o final do array
+                }
+                var newImageUrl = headerImages[currentImageIndex];
+                var headerImage = document.getElementById('header-image');
+                headerImage.style.opacity = 0; // Define a opacidade para 0 (imagem invisível)
+                setTimeout(function() {
+                    headerImage.src = newImageUrl; // Atualiza a src da imagem
+                    headerImage.style.opacity = 1; // Define a opacidade de volta para 1 (imagem visível)
+                }, 500); // Tempo de espera para garantir a transição suave
+            }
+
+            // Chama a função changeHeaderImage ao trocar de página
+            document.addEventListener('DOMContentLoaded', function() {
+                changeHeaderImage();
+            });
     </script>
 </body>
 </html>
