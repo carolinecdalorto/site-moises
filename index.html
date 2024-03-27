@@ -65,28 +65,6 @@
             }
         }
 
-        // Função para alternar a visibilidade do menu
-        function toggleMenu() {
-            var menu = document.getElementById('itens');
-            if (menu.style.display === 'block') {
-                menu.style.display = 'none';
-            } else {
-                menu.style.display = 'block';
-            }
-        }
-
-        // Adiciona um ouvinte de evento de clique ao ícone do menu
-        document.getElementById('burguer').addEventListener('click', toggleMenu);
-
-        // Adiciona um ouvinte de evento de clique no documento para fechar o menu ao clicar fora dele
-        document.addEventListener('click', function(event) {
-            var menu = document.getElementById('itens');
-            var burguer = document.getElementById('burguer');
-            if (event.target !== menu && event.target !== burguer) {
-                menu.style.display = 'none';
-            }
-        });
-
     </script>
 </body>
 </html>
