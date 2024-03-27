@@ -20,7 +20,7 @@
         padding: 60px;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom;
+        background-position: center 20px;
     }
     
     header > h1, h2 {
