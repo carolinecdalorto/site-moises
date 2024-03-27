@@ -37,7 +37,6 @@
         text-align: center; /* Alinha o texto horizontalmente */
         width: 100%;
         height: 200px; /* Altura do cabeçalho */
-        align-items: center;
     }
     
     #pagina1 header {
