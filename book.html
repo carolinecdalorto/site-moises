@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body class="pagina2" onresize="mudouTamanho()">
+<body id="pagina2" class="pagina" onresize="mudouTamanho()">
     <header>
         <h1>Minoritarin Liberalism</h1>
         <h2 id="bemvindo">A Travesti Life in Favela</h2>
@@ -60,6 +60,20 @@
                     itens.style.display = 'block'
                 }
             }
+
+            // Adiciona um evento de clique a um elemento que leva à próxima página
+document.getElementById('botao_proxima_pagina').addEventListener('click', function() {
+  // Adiciona a classe 'saindo' à página atual
+  document.getElementById('pagina1').classList.add('saindo');
+
+  // Remove a classe 'saindo' após a animação terminar
+  setTimeout(function() {
+    document.getElementById('pagina1').classList.remove('saindo');
+    // Redireciona para a próxima página
+    window.location.href = 'pagina2.html';
+  }, 1000); // Tempo de duração da animação (em milissegundos)
+});
+
 
     </script>
 </body>

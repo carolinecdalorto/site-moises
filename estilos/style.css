@@ -37,11 +37,11 @@
         text-align: center; /* Alinha o texto horizontalmente */
     }
     
-    .pagina1 header {
+    #pagina1 header {
         background-image: url(../natacha.jpg);
     }
     
-    .pagina2 header {
+    #pagina2 header {
         background-image: url(../bookcapa.jpg);
     }
 
@@ -171,6 +171,35 @@
         }
     }
     
+    /* Define a animação para a transição de entrada */
+@keyframes entrada {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Define a animação para a transição de saída */
+  @keyframes saida {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  /* Aplica a animação nas páginas */
+  .pagina {
+    animation: entrada 1s ease-in-out forwards;
+  }
+  
+  .pagina.saindo {
+    animation: saida 1s ease-in-out forwards;
+  }
+  
 
 
     
