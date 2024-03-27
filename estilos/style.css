@@ -101,13 +101,15 @@
     }
 
     .material-symbols-outlined {
-        vertical-align: right; /* Alinha verticalmente com o texto adjacente */
+        vertical-align: middle;
     }
     
     .bold {
         font-weight: bold;
-        margin-left: 100px; /* Adiciona um espaço à esquerda para separar os elementos */
-    }    
+        display: inline-block; /* Para garantir que a altura do parágrafo seja considerada */
+        margin-left: 10px;
+        vertical-align: middle; /* Alinha verticalmente com o ícone */
+    }
 
     .line {
         width: 100%;
