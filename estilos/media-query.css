@@ -16,12 +16,15 @@
     main {
         column-count: 2;
         width: 768px;  /* para o texto no corpo do site não ficar comprido */
+        }
     }
-}
 
     img {
         max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
     }
 
+    nav a {
+        transition: 0.5s;
+    }
     
 
