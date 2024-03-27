@@ -40,7 +40,7 @@
         color: white;
         display: block;
         text-align: center;
-        padding: 10px;
+        padding: 30px;
         cursor: pointer;  /*tornar-se maozinha quando passa o mouse */
     }
     
@@ -114,7 +114,6 @@
     .bold {
         font-weight: bold;
     }
-    
     
 
     .line {
