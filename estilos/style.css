@@ -102,7 +102,7 @@
 
     .icon-and-text {
         display: inline-flex; /* Para alinhar os elementos um ao lado do outro */
-        align-items: center; /* Para alinhar verticalmente os itens */
+        align-items: middle; /* Para alinhar verticalmente os itens */
     }
     
     .material-symbols-outlined {
