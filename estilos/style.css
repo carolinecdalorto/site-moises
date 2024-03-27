@@ -52,7 +52,7 @@
         display: none;
         text-align: center;
         position: relative;
-        margin-top: 50px;
+        top: 50px;
     }
     
     menu > ul {
