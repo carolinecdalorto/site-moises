@@ -160,4 +160,15 @@
         transition: opacity 0.5s ease; /* Define a transição de opacidade com duração de 0.5 segundos */
     }
 
+    #image-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0); /* Sobreposição inicialmente transparente */
+        transition: background-color 0.5s ease; /* Transição de cor de fundo suave */
+    }
+
+
     
