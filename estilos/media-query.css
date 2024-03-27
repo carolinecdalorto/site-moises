@@ -6,7 +6,7 @@
     }
 
     menu {
-        display: block;
+        display: none;
     }
 
     menu > ul > li {
@@ -16,10 +16,19 @@
     main {
         column-count: 2;
         width: 768px;  /* para o texto no corpo do site não ficar comprido */
+        }
     }
-}
+    
+    /* Estilos para telas pequenas (menores que 768px) */
+    @media screen and (max-width: 767px) {
+        menu {
+            display: flex; /* Exibe o menu em telas pequenas */
+            justify-content: center; /* Centraliza os itens do menu */
+            margin-top: auto; /* Move o menu para o final do cabeçalho */
+            width: 100%; /* Define a largura do menu como 100% */
+        }
+    }
 
     img {
         max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
     }
-
