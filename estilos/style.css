@@ -47,7 +47,7 @@
         display: none;
         width: 100%;
         position: relative;
-        top: 67px;
+        top: 70px;
         left: -60px;
     }
     
@@ -76,6 +76,7 @@
         width: 90vw;
         background-color: white;
         margin: auto;
+        margin-top: 20px;
         padding: 10px;
         border-radius: 10px;
     }
