@@ -23,11 +23,17 @@
 
         position: relative;
         background-image: url(../natacha.jpg);
-        padding: 60px;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center -550px;
+        background-position: center;
+        padding: 60px;
+        height: 300px; /* Altura do cabeçalho */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Alinha os itens verticalmente */
+        text-align: center; /* Alinha o texto horizontalmente */
     }
+    
     
     header > h1, h2 {
         padding: 8px;
