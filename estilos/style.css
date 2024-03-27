@@ -51,7 +51,8 @@
     menu {
         display: none;
         text-align: center;
-        margin-top: 100px;
+        position: relative;
+        margin-top: 50px;
     }
     
     menu > ul {
