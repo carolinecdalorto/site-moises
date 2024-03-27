@@ -20,18 +20,17 @@
     }
     
     header {
-        position: relative; /* Adicionado */
+        position: relative;
         background-image: url(../natacha.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         padding: 60px;
-        height: 200px; /* Altura mínima do cabeçalho */
+        height: 300px; /* Altura mínima do cabeçalho */
         display: flex;
         flex-direction: column;
         justify-content: center; /* Alinha os itens verticalmente */
         text-align: center; /* Alinha o texto horizontalmente */
-        overflow: hidden; /* Impede que o menu cubra a imagem de fundo */
     }
     
     header > h1, header > h2 {
@@ -59,10 +58,7 @@
     menu {
         display: flex;
         justify-content: center;
-        position: absolute; /* Alterado para absolute */
-        bottom: 0; /* Ajustado para 0 */
-        left: 0;
-        width: 100%;
+        margin-top: auto; /* Faz com que o menu fique no final do cabeçalho */
     }
     
     menu > ul {
@@ -128,5 +124,4 @@
         height: 10px; /* Altura da linha */
         background-color: rgb(255, 189, 48);
     }
-    
     
