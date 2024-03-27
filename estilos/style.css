@@ -65,7 +65,7 @@
         display: block;
         padding: 10px;
         text-decoration: none;
-        background-color: #778fc7;
+        background-color: #778fc788;
         color: white;
         text-align: center;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
@@ -75,7 +75,7 @@
     }
     
     menu > ul > li > a:hover {
-        background-color: #778fc788;
+        background-color: #778fc7;
     }
     
     main {
