@@ -62,17 +62,17 @@
             }
 
             // Adiciona um evento de clique a um elemento que leva à próxima página
-document.getElementById('botao_proxima_pagina').addEventListener('click', function() {
-  // Adiciona a classe 'saindo' à página atual
-  document.getElementById('pagina1').classList.add('saindo');
+            document.getElementById('botao_proxima_pagina').addEventListener('click', function() {
+            // Adiciona a classe 'saindo' à página atual
+            document.getElementById('pagina1').classList.add('saindo');
 
-  // Remove a classe 'saindo' após a animação terminar
-  setTimeout(function() {
-    document.getElementById('pagina1').classList.remove('saindo');
-    // Redireciona para a próxima página
-    window.location.href = 'pagina2.html';
-  }, 1000); // Tempo de duração da animação (em milissegundos)
-});
+            // Remove a classe 'saindo' após a animação terminar
+            setTimeout(function() {
+            document.getElementById('pagina1').classList.remove('saindo');
+            // Redireciona para a próxima página
+            window.location.href = 'pagina2.html';
+            }, 1000); // Tempo de duração da animação (em milissegundos)
+            });
 
 
     </script>

@@ -172,7 +172,7 @@
     }
     
     /* Define a animação para a transição de entrada */
-@keyframes entrada {
+    @keyframes entrada {
     from {
       opacity: 0;
     }
@@ -182,7 +182,7 @@
   }
   
   /* Define a animação para a transição de saída */
-  @keyframes saida {
+    @keyframes saida {
     from {
       opacity: 1;
     }
@@ -193,11 +193,11 @@
   
   /* Aplica a animação nas páginas */
   .pagina {
-    animation: entrada 1s ease-in-out forwards;
+    animation: entrada 0.5s ease-in-out forwards;
   }
   
   .pagina.saindo {
-    animation: saida 1s ease-in-out forwards;
+    animation: saida 0.5s ease-in-out forwards;
   }
   
 
