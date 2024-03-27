@@ -27,7 +27,7 @@
         padding: 8px;
         text-align: center;
         margin-bottom: 10px;
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.397);
+        text-shadow: 0px 0px 5pxrgba(0, 0, 0, 0.466)k;
     }
     
     span#burguer {
@@ -80,6 +80,7 @@
         margin-top: 20px;
         padding: 10px;
         border-radius: 10px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
     }
     
     article > h2 {
