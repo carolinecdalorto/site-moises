@@ -83,6 +83,7 @@
     
     menu > ul > li > a:hover {
         background-color: #778fc788;
+        margin: 0 5px;
     }
     
     main {
