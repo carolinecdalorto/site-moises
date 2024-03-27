@@ -94,7 +94,7 @@
         padding: 20px;
     }
 
-    p > a {
+    .bold > p {
         font-weight: bold;
         text-align: left;
     }
