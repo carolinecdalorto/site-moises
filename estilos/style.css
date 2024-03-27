@@ -38,6 +38,9 @@
         text-align: center; /* Alinha o texto horizontalmente */
     }
     
+    header.book.html {
+        background-image: url(../bookcapa.jpg);
+    }
 
     header > h1 {
         text-align: center;
