@@ -6,13 +6,13 @@
         margin: 0px;
         padding: 0px;
     }
-        
-    .itens {
-        position: relative;
-    }
 
     h1 {
-        font-weight: 400px;
+        font-weight: 600px;
+    }
+
+    h2 {
+        font-weight: 300px;
     }
 
     body, html {
