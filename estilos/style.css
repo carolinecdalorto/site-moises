@@ -27,7 +27,7 @@
         background-position: center;
         padding: 60px;
         height: auto; /* Alterado para altura automática */
-        max-height: 200px; /* Altura mínima do cabeçalho */
+        min-height: 200px; /* Altura mínima do cabeçalho */
         display: flex;
         flex-direction: column;
         justify-content: center; /* Alinha os itens verticalmente */
@@ -59,7 +59,7 @@
     menu {
         display: flex;
         justify-content: center;
-        margin-top: 10px; /* Faz com que o menu fique no final do cabeçalho */
+        margin-top: auto; /* Faz com que o menu fique no final do cabeçalho */
     }
     
     menu > ul {
@@ -78,21 +78,19 @@
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
         border-radius: 5px;
         transition: 0.5s;
-      
     }
     
     menu > ul > li > a:hover {
         background-color: #778fc788;
     }
     
-   main {
+    main {
         flex: 1; /* Ocupa todo o espaço disponível */
         background-color: white;
         padding: 15px;
         border-radius: 10px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
-        margin: 0 auto; /* Centraliza o main e reduz o espaçamento superior */
-        margin-top: 10px; /* Aproxima o main do menu */
+        margin: 15px auto; /* Centraliza o main */
     }
     
     article > h2 {
