@@ -102,6 +102,7 @@
         border-radius: 10px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
         margin: 15px auto; /* Centraliza o main */
+        font-weight: 300;
     }
     
     article > h2 {
