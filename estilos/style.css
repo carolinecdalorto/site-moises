@@ -59,8 +59,7 @@
         display: none;
         text-align: center;
         position: relative;
-        height: 50px; /* Altura fixa do menu */
-        margin-top: auto; /* Coloca o menu no final do cabeçalho */
+        align-self: flex-end; /* Coloca o menu no final do cabeçalho */
     }
     
     menu > ul {
