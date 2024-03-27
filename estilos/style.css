@@ -35,9 +35,6 @@
         flex-direction: column;
         justify-content: center; /* Alinha os itens verticalmente */
         text-align: center; /* Alinha o texto horizontalmente */
-        width: 100%;
-        height: 200px; /* Altura do cabeçalho */
-        overflow: hidden;
     }
     
     #pagina1 header {
@@ -203,25 +200,6 @@
     animation: saida 0.3s ease-in-out forwards;
   }
 
-  header img {
-    width: 100%; /* Garante que a imagem do cabeçalho ocupe toda a largura */
-    height: auto; /* Permite que a altura da imagem se ajuste automaticamente */
-    transition: opacity 1s ease; /* Transição suave de opacidade */
-  }
   
-  menu ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  menu ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
-  menu ul li a {
-    text-decoration: none;
-    color: #333;
-  }
   
     
