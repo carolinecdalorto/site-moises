@@ -56,10 +56,12 @@
     }
     
     menu {
-        display: none;
-        text-align: center;
-        position: relative;
-        align-self: flex-end; /* Coloca o menu no final do cabeçalho */
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
     }
     
     menu > ul {
@@ -125,4 +127,5 @@
         height: 10px; /* Altura da linha */
         background-color: rgb(255, 189, 48);
     }
+    
     
