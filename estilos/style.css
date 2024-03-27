@@ -27,7 +27,7 @@
         background-position: center;
         padding: 60px;
         height: auto; /* Alterado para altura automática */
-        min-height: 300px; /* Altura mínima do cabeçalho */
+        min-height: 200px; /* Altura mínima do cabeçalho */
         display: flex;
         flex-direction: column;
         justify-content: center; /* Alinha os itens verticalmente */
