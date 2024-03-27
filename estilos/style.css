@@ -40,8 +40,9 @@
         color: white;
         display: block;
         text-align: center;
-        padding: 30px;
+        padding: 10px;
         cursor: pointer;  /*tornar-se maozinha quando passa o mouse */
+        top: 60px;
     }
     
     span#burguer:hover {
