@@ -19,21 +19,6 @@
         background-color: #e3e5ed;
     }
     
-    header {  
-
-        position: relative;
-        background-image: url(../natacha.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        padding: 60px;
-        height: 200px; /* Altura do cabeçalho */
-        display: flex;
-        flex-direction: column;
-        justify-content: center; /* Alinha os itens verticalmente */
-        text-align: center; /* Alinha o texto horizontalmente */
-    }
-    
     header {
         position: relative;
         background-image: url(../natacha.jpg);
@@ -73,11 +58,8 @@
     menu {
         display: none;
         text-align: center;
-        position: absolute;
-        bottom: 0; /* Posiciona o menu no rodapé do cabeçalho */
-        left: 0; /* Alinha o menu à esquerda */
-        width: 100%;
-        z-index: 1; /* Garante que o menu fique acima do conteúdo */
+        position: relative;
+        margin-top: auto; /* Coloca o menu no final do cabeçalho */
     }
     
     menu > ul {
