@@ -78,7 +78,7 @@
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
         border-radius: 5px;
         transition: 0.5s;
-        margin-top: 20px;
+      
     }
     
     menu > ul > li > a:hover {
