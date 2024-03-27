@@ -24,8 +24,3 @@
         margin-right: 20px; /* Adiciona espaçamento à direita da imagem */
     }
 
-@media only screen and (max-width: 768px) {
-    menu {
-        top: 40px; /* Reduz a margem superior do menu em telas menores */
-    }
-}
