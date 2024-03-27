@@ -26,7 +26,6 @@
     
     header {
         position: relative;
-        background-image: url(../natacha.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -38,7 +37,10 @@
         text-align: center; /* Alinha o texto horizontalmente */
     }
     
-    header.book.html {
+    header.index {
+        background-image: url(../natacha.jpg);
+    }
+    header.book {
         background-image: url(../bookcapa.jpg);
     }
 
