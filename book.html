@@ -240,29 +240,37 @@
                 }
             }
 
-            // Array com URLs das imagens do cabeçalho
-            var headerImages = ['natacha.jpg', 'bookcapa.jpg'];
-            var currentImageIndex = 0; // Índice da imagem atual
+            var headerImages = ['imagem1.jpg', 'imagem2.jpg', 'imagem3.jpg'];
+            var currentImageIndex = 0;
 
-            // Função para trocar a imagem do cabeçalho
             function changeHeaderImage() {
-                currentImageIndex++; // Avança para a próxima imagem
-                if (currentImageIndex >= headerImages.length) {
-                    currentImageIndex = 0; // Volta para a primeira imagem se atingir o final do array
-                }
-                var newImageUrl = headerImages[currentImageIndex];
                 var headerImage = document.getElementById('header-image');
-                headerImage.style.opacity = 0; // Define a opacidade para 0 (imagem invisível)
+                headerImage.classList.add('fade-out');
                 setTimeout(function() {
-                    headerImage.src = newImageUrl; // Atualiza a src da imagem
-                    headerImage.style.opacity = 1; // Define a opacidade de volta para 1 (imagem visível)
-                }, 500); // Tempo de espera para garantir a transição suave
+                    currentImageIndex++;
+                    if (currentImageIndex >= headerImages.length) {
+                        currentImageIndex = 0;
+                    }
+                    headerImage.src = headerImages[currentImageIndex];
+                    headerImage.classList.remove('fade-out');
+                }, 500);
             }
 
-            // Chama a função changeHeaderImage ao trocar de página
+            function toggleMenu() {
+                var menu = document.getElementById('itens');
+                if (menu.style.display === 'block') {
+                    menu.style.display = 'none';
+                } else {
+                    menu.style.display = 'block';
+                }
+            }
+
             document.addEventListener('DOMContentLoaded', function() {
-                changeHeaderImage();
+                setInterval(changeHeaderImage, 5000);
             });
+
+            document.getElementById('burguer').addEventListener('click', toggleMenu);
+
     </script>
 </body>
 </html>
