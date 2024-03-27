@@ -36,6 +36,8 @@
         justify-content: center; /* Alinha os itens verticalmente */
         text-align: center; /* Alinha o texto horizontalmente */
         overflow: hidden;
+        width: 100%;
+        height: 200px;
     }
     
     #pagina1 header {
