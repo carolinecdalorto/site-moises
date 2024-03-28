@@ -137,9 +137,8 @@
         margin-right: 10px; /* Adiciona um espaço à direita do ícone */
     }
     
-    .bold:hover {
+    .bold {
         font-weight: bold;
-        color: #778fc7;
     }
     
     .line {
@@ -201,6 +200,8 @@
     animation: saida 0.3s ease-in-out forwards;
   }
 
-  
+  article > a:hover {
+    color: #778fc7;
+  }
   
     
