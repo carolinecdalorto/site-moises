@@ -137,8 +137,9 @@
         margin-right: 10px; /* Adiciona um espaço à direita do ícone */
     }
     
-    .bold {
+    .bold:hover {
         font-weight: bold;
+        color: #778fc7;
     }
     
     .line {
