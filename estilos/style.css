@@ -129,7 +129,7 @@
         text-align: justify; /* Mantém o texto justificado dentro do artigo */
         margin-bottom: 2px; /* Espaçamento entre os parágrafos */
         line-height: 1.6; /* Espaçamento entre as linhas */
-        text-indent: 8px; /* Adiciona um recuo uniforme à esquerda de cada parágrafo */
+        text-indent: 5px; /* Adiciona um recuo uniforme à esquerda de cada parágrafo */
     }
     
     
