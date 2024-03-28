@@ -125,11 +125,10 @@
     }
     
     #pagina3 article {
-        margin-bottom: 20px; /* Adiciona espaço entre cada artigo */
         text-align: justify; /* Mantém o texto justificado */
         margin-bottom: 5px; /* Diminui o espaço entre os parágrafos */
         margin-left: 0; /* Redefine a margem esquerda para zero */
-        padding-left: 20px; /* Adiciona um recuo uniforme à esquerda */
+        padding-left: 0; /* Adiciona um recuo uniforme à esquerda */
         font-weight: 300;
     }
     
