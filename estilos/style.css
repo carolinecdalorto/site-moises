@@ -78,7 +78,7 @@
     span#burguer:hover {
         background-color: #778fc7;
         color: black;
-        justify-content: center;
+        text-align: center;
     }
     
     menu {
