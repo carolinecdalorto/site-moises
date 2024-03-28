@@ -164,6 +164,7 @@
     #titulo {
         font-weight: 300;
         color: rgb(58, 57, 57);
+        font-weight: bold;
     }
     
     .line {
