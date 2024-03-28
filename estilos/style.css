@@ -122,15 +122,14 @@
         margin: 15px auto; /* Centraliza o main */
         display: flex; /* Ativa o modelo flexbox */
         flex-direction: column; /* Exibe os elementos em uma única coluna */
-        text-align: justify;
+        text-align: left;
     }
     
     #pagina3 article > p {
         text-align: justify; /* Mantém o texto justificado dentro do artigo */
         margin-bottom: 2px; /* Espaçamento entre os parágrafos */
         line-height: 1.6; /* Espaçamento entre as linhas */
-        padding-left: 18px; /* Adiciona espaçamento uniforme à esquerda de cada parágrafo */
-        text-indent: -18px; /* Remove a indentação extra na primeira linha */
+        text-indent: 18px; /* Adiciona um recuo uniforme à esquerda de cada parágrafo */
     }
     
     
