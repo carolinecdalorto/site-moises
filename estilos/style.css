@@ -162,7 +162,8 @@
     }
 
     #titulo {
-        font-size: larger;
+        font-weight: 100;
+        color: #778fc7;
     }
     
     .line {
