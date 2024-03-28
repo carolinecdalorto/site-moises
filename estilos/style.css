@@ -125,11 +125,12 @@
         text-align: left;
     }
     
-    #pagina3 article {
-        text-align: justify; /* Alinha o texto justificado */
+    #pagina3 article > p {
+        text-align: justify; /* Mantém o texto justificado dentro do artigo */
         margin-bottom: 10px; /* Espaçamento entre os parágrafos */
-        margin-left: 0; /* Remove a margem à esquerda */
-        padding-left: 0; /* Define o recuo à esquerda */
+        line-height: 1.6; /* Espaçamento entre as linhas */
+        padding-left: 18px; /* Adiciona espaçamento uniforme à esquerda de cada parágrafo */
+        text-indent: -18px; /* Remove a indentação extra na primeira linha */
     }
     
     
