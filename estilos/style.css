@@ -122,7 +122,6 @@
         margin: 15px auto; /* Centraliza o main */
         display: flex; /* Ativa o modelo flexbox */
         flex-direction: column; /* Exibe os elementos em uma única coluna */
-        text-align: justify
     }
     
     #pagina3 article {
@@ -130,6 +129,8 @@
         margin-bottom: 5px; /* Diminui o espaço entre os parágrafos */
         margin-left: 0; /* Redefine a margem esquerda para zero */
         font-weight: 300;
+        line-height: 1.6; /* Espaçamento entre as linhas */
+
     }
     
     article > h2 {
