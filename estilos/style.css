@@ -122,6 +122,7 @@
         margin: 15px auto; /* Centraliza o main */
         display: flex; /* Ativa o modelo flexbox */
         flex-direction: column; /* Exibe os elementos em uma única coluna */
+        text-align: justify
     }
     
     #pagina3 article {
