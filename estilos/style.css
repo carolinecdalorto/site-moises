@@ -133,8 +133,8 @@
     }
     
     #pagina3 h1 {
-        color: black;
         text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.37);
+        font-size: 50px;
     }
     
     article > h2 {
