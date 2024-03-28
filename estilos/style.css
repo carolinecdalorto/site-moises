@@ -124,14 +124,15 @@
         flex-direction: column; /* Exibe os elementos em uma única coluna */
     }
     
-    #pagina3 article {
-        text-align: left; /* Mantém o texto justificado */
-        margin-bottom: 5px; /* Diminui o espaço entre os parágrafos */
-        margin-left: 0; /* Redefine a margem esquerda para zero */
+    #pagina3 article > p {
+        text-align: justify; /* Alinha o texto justificado */
+        margin-bottom: 10px; /* Espaçamento entre os parágrafos */
+        margin-left: 0; /* Remove a margem à esquerda */
         font-weight: 300;
         line-height: 1.6; /* Espaçamento entre as linhas */
-
+        text-indent: 20px; /* Define o recuo à esquerda */
     }
+    
     
     article > h2 {
         padding-bottom: 10px;
