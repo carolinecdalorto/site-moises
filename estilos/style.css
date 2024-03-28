@@ -157,6 +157,10 @@
     .bold {
         font-weight: bold;
     }
+
+    #titulo {
+        font-size: larger;
+    }
     
     .line {
         width: 100%;
