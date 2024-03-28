@@ -45,6 +45,10 @@
         background-image: url(../bookcapa.jpg);
     }
 
+    #pagina3 header {
+        background-image: url(../capapubli.png);
+    }
+
     header > h1 {
         text-align: center;
         margin-top: 90px;
