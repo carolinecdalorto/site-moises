@@ -49,6 +49,10 @@
         background-image: url(../capapubli.png);
     }
 
+    #pagina4 header {
+        background-image: url(../caparocinha.png);
+    }
+
     header > h1 {
         text-align: center;
         margin-top: 90px;
@@ -73,12 +77,13 @@
         cursor: pointer; /*tornar-se maozinha quando passa o mouse */
         width: 100%;
         border-radius: 5px;
+        justify-content: center; /*AQUI*/
     }
     
     span#burguer:hover {
         background-color: #778fc7;
         color: black;
-        text-align: center;
+        text-align: center; /*AQUI*/
     }
     
     menu {
