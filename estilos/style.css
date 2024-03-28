@@ -128,7 +128,7 @@
         text-align: justify; /* Alinha o texto justificado */
         margin-bottom: 10px; /* Espaçamento entre os parágrafos */
         margin-left: 0; /* Remove a margem à esquerda */
-        padding-left: 10px; /* Define o recuo à esquerda */
+        padding-left: 0; /* Define o recuo à esquerda */
     }
     
     
