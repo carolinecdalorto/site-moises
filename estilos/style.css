@@ -125,10 +125,9 @@
     }
     
     #pagina3 article {
-        text-align: justify; /* Mantém o texto justificado */
-        margin-bottom: 0; /* Diminui o espaço entre os parágrafos */
+        text-align: left; /* Mantém o texto justificado */
+        margin-bottom: 5px; /* Diminui o espaço entre os parágrafos */
         margin-left: 0; /* Redefine a margem esquerda para zero */
-        padding-left: 0; /* Adiciona um recuo uniforme à esquerda */
         font-weight: 300;
     }
     
