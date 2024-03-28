@@ -32,17 +32,18 @@
         height: auto; /* Alterado para altura automática */
         min-height: 300px; /* Altura mínima do cabeçalho */
         display: flex;
-        flex-direction: column;
         justify-content: center; /* Alinha os itens verticalmente */
         text-align: center; /* Alinha o texto horizontalmente */
     }
     
     #pagina1 header {
         background-image: url(../natacha.jpg);
+        flex-direction: column;
     }
     
     #pagina2 header {
         background-image: url(../bookcapa.jpg);
+        flex-direction: column;
     }
 
     #pagina3 header {
