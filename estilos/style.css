@@ -115,11 +115,17 @@
     }
 
     #pagina3 main {
-        background-color: rgb(15, 15, 15);
+        /* column-count: 2; */ /* Remova esta linha para eliminar a configuração de duas colunas */
+        background-color: white;
         padding: 15px;
         border-radius: 10px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
-        margin: 15px auto;
+        margin: 15px auto; /* Centraliza o main */
+    }
+    
+    #pagina3 article {
+        text-align: left; /* Alinha o texto à esquerda */
+        margin-bottom: 20px; /* Adiciona espaço entre cada artigo */
     }
     
     article > h2 {
