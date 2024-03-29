@@ -69,16 +69,18 @@
     }
     
     span#burguer {
-        background-color: #a1abde;
-        color: white;
-        display: block;
-        text-align: center;
-        padding: 10px;
-        cursor: pointer; /*tornar-se maozinha quando passa o mouse */
-        width: 100%;
-        border-radius: 5px;
+            background-color: #a1abde;
+            color: white;
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            text-align: center;
+            padding: 10px;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
         }
-
+        
     span#burguer:hover {
         background-color: #778fc7;
         color: rgb(255, 189, 48);
@@ -273,13 +275,7 @@
     animation: saida 0.3s ease-in-out forwards;
   }
 
-  @media screen and (max-width: 767px) {
-    span#burguer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
+  
 
 
   
