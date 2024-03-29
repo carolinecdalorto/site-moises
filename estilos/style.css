@@ -219,12 +219,11 @@
     }
 
     #foto {
-        display: flex; /* Ativa o modelo flexbox */
-        justify-content: center; /* Centraliza horizontalmente */
-        align-items: center; /* Centraliza verticalmente */
-        height: 100vh;
+        display: block;
         max-width: 100%; /* Garante que a imagem não ultrapasse a largura da coluna */
         max-height: 100%; /* Garante que a imagem não ultrapasse a altura da coluna */
+        margin-top: 10px; /* Reduz a margem superior da imagem */
+        margin-bottom: 10px;
     }
 
     #foto > #ibemvindo {
