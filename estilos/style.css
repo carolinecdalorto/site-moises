@@ -180,7 +180,7 @@
         width: 100%; /* Para garantir que a div ocupe toda a largura disponível */
     }
 
-    .linklivro > a {
+    #linklivro > a {
         text-decoration: none; /* Remove o sublinhado */
         color: black; 
     }
