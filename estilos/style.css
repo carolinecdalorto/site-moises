@@ -78,10 +78,7 @@
         width: 100%;
         border-radius: 5px;
         justify-content: center; /*AQUI*/
-        position: relative;
-        display: flex;
-        justify-content: center; /* Centraliza horizontalmente */
-        align-items: center
+        
     }
     
     span#burguer:hover {
@@ -116,6 +113,7 @@
     
     menu > ul > li > a:hover {
         background-color: #778fc788;
+        color: rgb(255, 189, 48);
     }
     
     main {
