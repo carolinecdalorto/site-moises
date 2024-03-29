@@ -183,6 +183,7 @@
     #linklivro {
         text-decoration: none; /* Remove o sublinhado */
         color: black; 
+        font-weight: bold;
     }
     
     .material-symbols-outlined {
