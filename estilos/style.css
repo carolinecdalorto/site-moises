@@ -238,10 +238,13 @@
         font-weight: bold;
     } 
 
-    .link {
-        margin-bottom: 0;
+    .link > a {
         text-decoration: none; /* Remove o sublinhado */
         color: black;
+    }
+
+    .link {
+        margin-bottom: 0;
     }
 
         /* Estilos para telas grandes (maiores ou iguais a 768px) */
