@@ -227,7 +227,7 @@
         max-height: 100%; /* Garante que a imagem não ultrapasse a altura da coluna */
     }
 
-    #foto > h2 {
+    #foto > #ibemvindo {
         margin-bottom: -30px;
     }
 
