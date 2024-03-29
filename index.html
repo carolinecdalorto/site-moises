@@ -63,16 +63,7 @@
             }
         }
 
-        // Adicione um evento de clique para cada item do menu
-document.querySelectorAll('menu > ul > li > a').forEach(item => {
-    item.addEventListener('click', () => {
-        // Oculta o menu após um item ser clicado
-        document.querySelector('menu > ul').style.display = 'none';
-    });
-});
-
-// Função para alternar a exibição do menu
-function clickMenu() {
+        function clickMenu() {
     var menu = document.querySelector('menu > ul');
     if (menu.style.display === 'block' || getComputedStyle(menu).display === 'block') {
         menu.style.display = 'none';
