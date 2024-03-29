@@ -72,7 +72,7 @@
         background-color: #a1abde;
         color: white;
         display: block;
-        justify-content: center; /*AQUI*/
+        text-align: center;
         padding: 10px;
         cursor: pointer; /*tornar-se maozinha quando passa o mouse */
         width: 100%;
