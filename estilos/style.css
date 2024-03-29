@@ -245,12 +245,6 @@
         margin-bottom: 0;
     }
 
-        /* Estilos para telas grandes (maiores ou iguais a 768px) */
-    @media screen and (min-width: 768px) {
-        span#burguer {
-        display: none; /* Oculta o ícone do menu em telas grandes */
-        }
-    }
     
     /* Define a animação para a transição de entrada */
     @keyframes entrada {
