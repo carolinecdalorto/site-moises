@@ -220,6 +220,7 @@
 
     #foto {
         display: block;
+        margin: 10px;
     }
 
     #linklivro:hover {
