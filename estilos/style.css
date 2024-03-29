@@ -283,6 +283,26 @@
     animation: saida 0.3s ease-in-out forwards;
   }
 
+  @media screen and (max-width: 767px) {
+    menu {
+        display: none; /* Oculta o menu no carregamento da página em telas menores */
+    }
+
+    menu > ul {
+        display: none; /* Oculta a lista de itens de menu no carregamento da página em telas menores */
+    }
+
+    span#burguer {
+        display: block; /* Exibe o ícone do menu na inicialização da página em telas menores */
+    }
+
+    main {
+        width: 100%; /* Garante que o conteúdo principal ocupe toda a largura disponível */
+        box-sizing: border-box; /* Inclui as bordas e o preenchimento no cálculo da largura */
+        padding: 0 15px; /* Adiciona um preenchimento lateral para manter o conteúdo visível */
+    }
+}
+
 
   
     
