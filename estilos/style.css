@@ -22,6 +22,7 @@
 
     body, html {
         background-color: #e3e5ed;
+        overflow-x: hidden;
     }
     
     header {
@@ -205,7 +206,6 @@
         width: 100%;
         height: 10px; /* Altura da linha */
         background-color: rgb(255, 189, 48);
-        margin: auto;
     }
 
     #bemvindo {
