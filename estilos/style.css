@@ -266,11 +266,11 @@
   
   /* Aplica a animação nas páginas */
   .pagina {
-    animation: entrada 0.3s ease-in-out forwards;
+    animation: entrada 0.4s ease-in-out forwards;
   }
   
   .pagina.saindo {
-    animation: saida 0.3s ease-in-out forwards;
+    animation: saida 0.4s ease-in-out forwards;
   }
 
   
