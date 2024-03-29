@@ -9,7 +9,7 @@
         line-height: 1.6;
         margin: 0px;
         padding: 0px;
-        }
+    }
 
     h1 {
         font-size: 60px;
@@ -124,10 +124,10 @@
 
     #pagina3 main {
         background-color: white;
-        padding: 15px;
+        padding: 10px;
         border-radius: 10px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
-        margin: 15px auto; /* Centraliza o main */
+        margin: 10px auto; /* Centraliza o main */
         display: flex; /* Ativa o modelo flexbox */
         flex-direction: column; /* Exibe os elementos em uma única coluna */
         text-align: left;
@@ -142,10 +142,10 @@
     
     #pagina4 main {
         background-color: white;
-        padding: 15px;
+        padding: 10px;
         border-radius: 10px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
-        margin: 15px auto; /* Centraliza o main */
+        margin: 10px auto; /* Centraliza o main */
         display: flex; /* Ativa o modelo flexbox */
         flex-direction: column; /* Exibe os elementos em uma única coluna */
         text-align: left;
