@@ -77,7 +77,7 @@
         cursor: pointer; /*tornar-se maozinha quando passa o mouse */
         width: 100%;
         border-radius: 5px;
-        margin-right: 30px;  
+        margin-right: 200px;  
     }
 
     span#burguer:hover {
