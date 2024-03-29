@@ -76,6 +76,7 @@
         padding: 10px;
         cursor: pointer; /*tornar-se maozinha quando passa o mouse */
         width: 100%;
+        border-radius: 5px;
         justify-content: center; /*AQUI*/
     }
     
@@ -115,9 +116,11 @@
     }
     
     main {
-        flex: 1; /* Ocupa todo o espaço disponível */
+        width: 90vw;
         background-color: white;
-        padding: 15px;
+        margin: auto;
+        margin-top: 10px;
+        padding: 10px;
         border-radius: 10px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
         margin: 15px auto; /* Centraliza o main */
