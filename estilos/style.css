@@ -77,13 +77,9 @@
         cursor: pointer; /*tornar-se maozinha quando passa o mouse */
         width: 100%;
         border-radius: 5px;
-        
+        margin-right: 10px;  
     }
 
-    .material-symbols-outlined {
-        margin-left: 10px;
-    }
-    
     span#burguer:hover {
         background-color: #778fc7;
         color: rgb(255, 189, 48);
