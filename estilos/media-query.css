@@ -13,6 +13,21 @@
         display:inline-block;
     }
 
+    @media screen and (max-width: 767px) {
+        menu {
+            display: none; /* Oculta o menu no carregamento da página em telas menores */
+        }
+    
+        menu > ul {
+            display: none; /* Oculta a lista de itens de menu no carregamento da página em telas menores */
+        }
+    
+        span#burguer {
+            display: block; /* Exibe o ícone do menu na inicialização da página em telas menores */
+        }
+    }
+    
+
     main {
         column-count: 2;
         width: 768px;  /* para o texto no corpo do site não ficar comprido */
