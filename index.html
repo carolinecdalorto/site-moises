@@ -62,6 +62,38 @@
                 itens.style.display = 'block'
             }
         }
+
+        // Adicione um evento de clique para cada item do menu
+document.querySelectorAll('menu > ul > li > a').forEach(item => {
+    item.addEventListener('click', () => {
+        // Oculta o menu após um item ser clicado
+        document.querySelector('menu > ul').style.display = 'none';
+    });
+});
+
+// Função para alternar a exibição do menu
+function clickMenu() {
+    var menu = document.querySelector('menu > ul');
+    if (menu.style.display === 'block' || getComputedStyle(menu).display === 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display = 'block';
+    }
+}
+
+
+        // Adiciona um evento de clique a um elemento que leva à próxima página
+        document.getElementById('botao_proxima_pagina').addEventListener('click', function() {
+        // Adiciona a classe 'saindo' à página atual
+        document.getElementById('pagina1').classList.add('saindo');
+
+        // Remove a classe 'saindo' após a animação terminar
+        setTimeout(function() {
+        document.getElementById('pagina1').classList.remove('saindo');
+        // Redireciona para a próxima página
+        window.location.href = 'pagina2.html';
+        }, 1000); // Tempo de duração da animação (em milissegundos)
+        });
     </script>
 </body>
 </html>
