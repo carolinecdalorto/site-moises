@@ -213,6 +213,10 @@
         text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.473);
     }
 
+    #ibemvindo {
+        color: #a1abde;
+    }
+
     #paragrafo {
         margin-left: 18px; /* Define uma margem menor à direita da imagem */
     }
