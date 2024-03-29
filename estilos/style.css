@@ -310,11 +310,13 @@
     menu ul li a {
         color: white;
         text-decoration: none;
+        display: block; /* Adiciona para ocupar todo o espaço disponível */
+        transition: background-color 0.3s ease; /* Adiciona transição */
     }
 
     /* Adiciona estilo para o hover */
     menu ul li a:hover {
-        background-color: #5577a5;
+        background-color: rgba(255, 255, 255, 0.1); /* Adiciona transparência no hover */
     }
 
     span#burguer {
