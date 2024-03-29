@@ -219,8 +219,10 @@
     }
 
     #foto {
-        display: block;
-        margin-right: 10px;
+        display: flex; /* Ativa o modelo flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh;
     }
 
     #linklivro:hover {
