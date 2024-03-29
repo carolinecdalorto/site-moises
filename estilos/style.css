@@ -89,7 +89,6 @@
     menu {
         display: none;
         justify-content: center;
-        margin-top: auto; /* Faz com que o menu fique no final do cabeçalho */
         width: 100%;
     }
     
@@ -106,6 +105,7 @@
         background-color: #778fc7;
         color: white;
         text-align: center;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.466);
         border-radius: 5px;
         transition: 0.5s;
         }
