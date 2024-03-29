@@ -312,6 +312,11 @@
         text-decoration: none;
     }
 
+    /* Adiciona estilo para o hover */
+    menu ul li a:hover {
+        background-color: #5577a5;
+    }
+
     span#burguer {
         display: block;
         cursor: pointer;
