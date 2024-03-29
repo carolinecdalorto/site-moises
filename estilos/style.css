@@ -178,6 +178,9 @@
         justify-content: flex-end; /* Alinha os itens à direita */
         align-items: center; /* Alinha verticalmente os itens */
         width: 100%; /* Para garantir que a div ocupe toda a largura disponível */
+    }
+
+    .linklivro {
         text-decoration: none; /* Remove o sublinhado */
         color: black; 
     }
