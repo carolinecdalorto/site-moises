@@ -22,7 +22,9 @@
 
     body, html {
         background-color: #e3e5ed;
-        overflow-x: hidden;
+        overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
+        display: flex;
+        justify-content: center;
     }
     
     header {
