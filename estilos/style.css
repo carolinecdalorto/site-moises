@@ -71,12 +71,13 @@
     span#burguer {
         background-color: #a1abde;
         color: white;
-        display: inline-block;
+        display: block;
         text-align: center;
         padding: 10px;
         cursor: pointer; /*tornar-se maozinha quando passa o mouse */
         width: 100%;
         border-radius: 5px;
+        margin: auto;
         }
 
     span#burguer:hover {
