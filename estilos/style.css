@@ -79,6 +79,10 @@
         border-radius: 5px;
         
     }
+
+    .material-symbols-outlined {
+        justify-content: center;    
+    }
     
     span#burguer:hover {
         background-color: #778fc7;
@@ -245,7 +249,6 @@
         margin-bottom: 0;
     }
 
-    
     /* Define a animação para a transição de entrada */
     @keyframes entrada {
     from {
