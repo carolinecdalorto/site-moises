@@ -24,7 +24,18 @@
         background-color: #e3e5ed;
     }
     
-    
+    header {
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: auto; /* Alterado para altura automática */
+        min-height: 300px; /* Altura mínima do cabeçalho */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Alinha os itens verticalmente */
+        text-align: center; /* Alinha o texto horizontalmente */
+    }
     
     #pagina1 header {
         background-image: url(../natacha.jpg);
@@ -272,7 +283,6 @@
     animation: saida 0.3s ease-in-out forwards;
   }
 
-  
   
 
   
