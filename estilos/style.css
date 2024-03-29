@@ -73,7 +73,6 @@
         color: white;
         display: block;
         justify-content: center; /*AQUI*/
-        text-align: center;
         padding: 10px;
         cursor: pointer; /*tornar-se maozinha quando passa o mouse */
         width: 100%;
@@ -88,7 +87,8 @@
     
     menu {
         display: none;
-        align-items: center;
+        justify-content: center;
+        margin-top: auto; /* Faz com que o menu fique no final do cabeçalho */
         width: 100%;
     }
     
