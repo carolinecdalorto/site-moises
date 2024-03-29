@@ -221,7 +221,7 @@
     #foto {
         margin-bottom: 5px;
         display: block;
-        margin: auto;
+        margin: 0 auto;
     }
 
     #linklivro:hover {
