@@ -290,35 +290,34 @@
         top: 100%;
         left: 0;
         width: 100%;
-        background-color: transparent; /* Alterado para transparente para permitir que a imagem de fundo seja visível */
+        background-color: transparent;
         text-align: center;
-        z-index: 1; /* Garante que o menu apareça acima do conteúdo */
+        z-index: 1;
     }
 
     menu.active {
         display: block;
     }
 
-    menu > ul {
+    menu ul {
         padding: 0;
-        margin: 0; /* Adiciona margem zero para evitar espaçamento extra */
+        margin: 0;
     }
 
-    menu > ul > li {
+    menu ul li {
         display: block;
         padding: 10px;
-        margin: 0; /* Adiciona margem zero para evitar espaçamento extra */
+        margin: 0;
     }
 
-    menu > ul > li > a {
+    menu ul li a {
         color: white;
         text-decoration: none;
         display: block;
         transition: background-color 0.3s ease;
     }
 
-    /* Adiciona estilo para o hover */
-    menu > ul > li > a:hover {
+    menu ul li a:hover {
         background-color: rgba(255, 255, 255, 0.1);
     }
 
@@ -328,12 +327,17 @@
     }
 
     header {
-        background-color: transparent; /* Alterado para transparente para permitir que a imagem de fundo seja visível */
-        position: relative; /* Adicionado para garantir que as sessões fiquem dentro do header */
+        background-color: transparent;
+        position: relative;
+    }
+
+    .header-content {
+        position: relative; /* Garante que o conteúdo do header seja posicionado corretamente */
+        z-index: 2; /* Garante que o conteúdo do header esteja acima do menu */
     }
 
     main {
-        margin-top: 0; /* Removido o espaçamento superior para evitar que o conteúdo seja empurrado para baixo */
+        margin-top: 0;
     }
 }
 
