@@ -120,6 +120,8 @@
         border-radius: 10px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
         text-align: center;
+        justify-content: center;
+        justify-items: center;
         }
 
     #pagina3 main {
