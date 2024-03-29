@@ -81,7 +81,7 @@
     }
 
     .material-symbols-outlined {
-        align-items: center;  
+        margin-left: 10px;
     }
     
     span#burguer:hover {
