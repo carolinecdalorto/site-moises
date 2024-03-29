@@ -292,6 +292,7 @@
         width: 100%;
         background-color: transparent; /* Alterado para transparente para permitir que a imagem de fundo seja visível */
         text-align: center;
+        z-index: 1; /* Garante que o menu apareça acima do conteúdo */
     }
 
     menu.active {
@@ -328,6 +329,11 @@
 
     header {
         background-color: transparent; /* Alterado para transparente para permitir que a imagem de fundo seja visível */
+        position: relative; /* Adicionado para garantir que as sessões fiquem dentro do header */
+    }
+
+    main {
+        margin-top: 0; /* Removido o espaçamento superior para evitar que o conteúdo seja empurrado para baixo */
     }
 }
 
