@@ -109,11 +109,7 @@
     }
     
     main {
-        width: 90vw;
-        background-color: white;
-        margin: 0 auto;
-        margin-top: 10px;
-        padding: 10px;
+        background-image: img src="logomtst.png";
         }
 
     #pagina3 main {
