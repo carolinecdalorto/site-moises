@@ -36,9 +36,6 @@
         text-align: center; /* Alinha o texto horizontalmente */
     }
     
-    #pagina1 header {
-        background-image: url(../natacha.jpg);
-    }
     
     #pagina2 header {
         background-image: url(../bookcapa.jpg);
@@ -117,8 +114,6 @@
         margin: 0 auto;
         margin-top: 10px;
         padding: 10px;
-        border-radius: 10px;
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
         }
 
     #pagina3 main {
